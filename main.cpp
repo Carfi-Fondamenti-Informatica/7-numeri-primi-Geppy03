@@ -5,11 +5,10 @@ int main() {
     int n=0;
     cin>>n;
     if(numerip(n,n-1)){
-        cout<<"numero primo";
+        cout<< "numero primo";
     }else{
-        cout<<"numero non primo";
+        cout<< "numero non primo";
     }
-
     return 0;
 }
 
